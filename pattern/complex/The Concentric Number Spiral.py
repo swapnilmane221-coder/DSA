@@ -25,5 +25,5 @@ def print_concentric_pattern(n):
         
         print()
 
-n = 4
-print_concentric_pattern(n)
+
+print_concentric_pattern(4)
