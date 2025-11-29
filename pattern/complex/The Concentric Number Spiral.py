@@ -19,11 +19,8 @@ def print_concentric_pattern(n):
             left = j
             bottom = size - 1 - i
             right = size - 1 - j
-            
             min_dist = min(top, left, bottom, right)
-            
             value = n - min_dist
-            
             print(value, end=" ")
         
         print()
